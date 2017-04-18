@@ -9,8 +9,8 @@ env:
   - TESTER_PHP_BIN="php-cgi"
 
 script:
-  - ./vendor/bin/tester -p $TESTER_PHP_BIN -s -c ./tests/travisPhp.ini ./tests
+  - ./vendor/bin/tester -p $TESTER_PHP_BIN -s ./tests
 
 before_script:
   - composer install
-  
+
