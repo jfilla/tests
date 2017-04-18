@@ -1,0 +1,14 @@
+{
+    "name": "jfilla/tests",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "nette/tester": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tests\\": "src/"
+        }
+    }
+}
